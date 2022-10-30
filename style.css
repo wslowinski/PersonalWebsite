@@ -8,6 +8,10 @@ h2 {
     font-size: 28px;
 }
 
+h2::first-letter {
+    color: gray;
+}
+
 h1 {
     font-size: 36px;
     margin-bottom: 10px;
@@ -44,15 +48,19 @@ header {
 header ul {
     list-style: none;
 }
+section ul {
+    list-style: none;
+}
 
 header li {
     margin-bottom: 15px;
 }
 
 .address-icon {
-    width: 22px;
-    height: 22px;
-    background-color: cornflowerblue;
+    width: 16px;
+    height: 16px;
+    background-color: whitesmoke;
+    border: 2px solid gray;
     margin-right: 10px;
     padding: 8px;
     vertical-align: middle;
@@ -84,4 +92,53 @@ header li {
 
 .cv-download-link:active {
     text-decoration: underline;
+}
+
+.period {
+    color: gray;
+    white-space: pre;
+    margin-right: 10px;
+    margin-left: -40px;
+}
+
+.position {
+    color: black;
+    font-weight: bold;
+}
+
+.company-name {
+    color: gray;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cursor-icon {
+    width: 16px;
+    height: 16px;
+    vertical-align: top;
+    margin-left: -5px;
+}
+
+.location-icon {
+    width: 16px;
+    height: 16px;
+    vertical-align: top;
+    margin-left: 5px;
+}
+
+.location-name {
+    color: cornflowerblue;
+    font-weight: bold;
+}
+
+.responsibility {
+    margin-left: 0px;
+}
+
+.responsibility-icon {
+    width: 4px;
+    height: 4px;
+    vertical-align: middle;
+    margin-left: 30px;
+    margin-right: 5px;
 }
